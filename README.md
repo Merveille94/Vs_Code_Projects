@@ -1,3 +1,3 @@
 # Vs_Code_Projects
-This repository here is to begin my web-dev journey coding directly from Vs code by cloning
-projects required to received a certificate from freecodecamp.
+This repository is to begin my web-dev journey coding directly from Vscode by cloning
+projects required for a certificate from freecodecamp.
