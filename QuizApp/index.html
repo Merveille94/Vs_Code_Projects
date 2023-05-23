@@ -1,13 +1,12 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="freeCodeCamp Accessibility Quiz practice project" />
     <title>Accessibility Quiz</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header>
@@ -15,9 +14,9 @@
       <h1>HTML/CSS Quiz</h1>
       <nav>
         <ul>
-          <li><a href="#student-info">INFO</a></li>
-          <li><a href="#html-questions">HTML</a></li>
-          <li><a href="#css-questions">CSS</a></li>
+          <li><a href="#student-info"accesskey="i">INFO</a></li>
+          <li><a href="#html-questions" accesskey="h">HTML</a></li>
+          <li><a href="#css-questions" accesskey="c">CSS</a></li>
         </ul>
       </nav>
     </header>
@@ -87,8 +86,8 @@
             </fieldset>
           </div>
         </section>
-        <section role="region" aria-labelledby="css-questions">
-          <h2 id="css-questions">CSS</h2>
+        <section role="region" aria-labelledby="css-question">
+          <h2 id="css-question">CSS</h2>
           <div class="formrow">
             <div class="question-block">
               <label for="customer">Are you a frontend developer?</label>
@@ -101,10 +100,10 @@
               </select>
             </div>
             <div class="question-block">
-              <label for="css-question">Do you have any questions:</label>
+              <label for="css-questions">Do you have any questions:</label>
             </div>
             <div class="answer">
-              <textarea id="css-question" name="css-question" rows="5" cols="24" placeholder="Who is flexbox..."></textarea>
+              <textarea id="css-questions" name="css-questions" rows="5" cols="24" placeholder="Who is flexbox..."></textarea>
             </div>
           </div>
         </section>
