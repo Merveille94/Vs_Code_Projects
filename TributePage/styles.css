@@ -1,9 +1,39 @@
+body{
+    font-family: 'Open Sans', Tahoma, Verdana, sans-serif;
+    background-color:rgb(1, 7, 29);
+    color: white;
+    padding: 10px;
+}
+#title{
+    background-color: black;
+    border-radius: 10px;
+}
+
+h1{
+    font-size:70px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+header > p {
+    text-align: center;
+    font-style: italic;
+}
+
+main{
+    background-color:rgb(0, 5, 19);
+    border-radius: 10px;
+    padding: 20px;
+}
 img{
     display: block;
+    opacity: 0.7;
 }
 #image{
-    max-width: 50%;
+    max-width: 80%;
     height: auto;
     margin: 0 auto;
+    border-radius: 10px;
+    border-right: black;
 }
 /* more work to come in here */
