@@ -21,8 +21,8 @@ h1{
 header > p {
     text-align: center;
     font-style: italic;
+    text-align:center;
 }
-
 main{
     background-color:rgb(0, 5, 19);
     border-radius: 10px;
