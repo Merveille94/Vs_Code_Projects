@@ -39,4 +39,9 @@ img{
     border-radius: 10px;
     border-right: black;
 }
+#img-caption{
+    font-style: italic;
+    text-align: center;
+
+}
 /* more work to come in here */
