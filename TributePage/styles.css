@@ -44,9 +44,10 @@ img{
     text-align: center;
 
 }
-fieldset, p{
+fieldset {
     border: none;
-    text-align: center;
+    /* text-align: center; */
 
 }
+
 /* more work to come in here */
