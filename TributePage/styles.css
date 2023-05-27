@@ -49,5 +49,9 @@ fieldset {
     /* text-align: center; */
 
 }
+fieldset a:first-of-type{
+    text-decoration: none;
+    color: aliceblue;
+}
 
 /* more work to come in here */
