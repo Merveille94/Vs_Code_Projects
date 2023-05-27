@@ -53,10 +53,23 @@ fieldset a:first-of-type{
     text-decoration: none;
     color: purple;
 }
-article{
-    text-align: center;
-    justify-content: space-around;
-    font-style: italic;
+article p:first-of-type{
+    text-align: justify;
 }
 
+article {
+    text-align: center;
+    justify-content: space-around;
+}
+.quote{
+    font-style: italic;
+    text-transform: capitalize;
+}
+.text_end{
+    font-style: italic;
+}
+span a:first-of-type{
+    text-decoration: none;
+    color: purple;
+}
 /* more work to come in here */
