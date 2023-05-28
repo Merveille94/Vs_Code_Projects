@@ -50,9 +50,8 @@ img{
 }
 fieldset {
     border: none;
-    /* text-align: center; */
-
 }
+
 fieldset a:first-of-type{
     text-decoration: none;
     color: purple;
