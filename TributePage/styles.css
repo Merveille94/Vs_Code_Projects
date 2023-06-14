@@ -59,7 +59,7 @@ fieldset a:first-of-type{
 article p:first-of-type{
     text-align: justify;
 }
-
+/* okay */
 article {
     text-align: center;
     justify-content: space-around;
@@ -76,3 +76,4 @@ span a:first-of-type{
     color: purple;
 }
 /* Work done*/
+intentional
