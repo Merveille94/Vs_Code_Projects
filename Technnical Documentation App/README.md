@@ -1,1 +1,0 @@
-This Project is about building a Javascript Technical documentation page 
